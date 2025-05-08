@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#EEEEEE"
+    android:padding="10dp"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/txtIdRutaRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID Ruta Registro"
+        android:textStyle="bold"
+        android:textColor="#3F51B5" />
+
+    <TextView
+        android:id="@+id/txtNroSalon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nro. Salón"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtPaso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paso"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripción" />
+
+    <TextView
+        android:id="@+id/txtImagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="URL Imagen"
+        android:textColor="#888888"
+        android:textSize="12sp" />
+</LinearLayout>

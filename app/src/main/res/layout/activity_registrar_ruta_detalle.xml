@@ -1,0 +1,52 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edtIdRutaRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID Ruta Registro"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtNroSalon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Número de Salón"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/edtNroPaso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Número de Paso"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtDescripcionRuta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descripción del Paso"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/edtImagenRuta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="URL de Imagen Referencial"
+            android:inputType="textUri" />
+
+        <Button
+            android:id="@+id/btnRegistrarRuta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar Paso de Ruta" />
+    </LinearLayout>
+</ScrollView>
